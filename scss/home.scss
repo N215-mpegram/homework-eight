@@ -1,20 +1,14 @@
 .home {
-  padding: 50px;
-  margin: auto;
-  max-width: $content-width;
-
-    img {
-        width: 500px;
-      }
-    
-    .testButton {
-      padding: 20px 10px;
-      background-color: bisque;
-      border-radius: 10px;
-      margin-bottom: 20px;
-      cursor: pointer;
-      width: 200px;
-      display: flex;
-      justify-content: center;
-    }
+  .hero {
+    background-image: url(../images/tour-01.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
+  .homeStuff {
+    margin: auto;
+    max-width: $content-width;
+  }
+}

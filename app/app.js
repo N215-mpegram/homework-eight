@@ -1,19 +1,4 @@
-var homeContent = `      <div class="home">
-<h1>HOME PAGE</h1>
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-  provident, doloribus unde reprehenderit, ea porro, autem magnam
-  accusamus laudantium odit ratione minima similique quod? Voluptas
-  vitae quidem assumenda fugiat sed?
-</p>
-<p>
-  Odit qui id, deserunt illo voluptatum magnam. Accusantium earum, alias
-  ullam mollitia vitae officiis. Impedit perspiciatis voluptatibus
-  recusandae, expedita beatae adipisci esse alias consequatur, officiis
-  quibusdam quae totam aperiam. Necessitatibus.
-</p>
-<img src="../images/tour-01.jpg" alt="Picture" />
-</div>`
+var homeContent = ``
 
 var aboutContent = `      <div class="about">
 <h1>ABOUT PAGE</h1>

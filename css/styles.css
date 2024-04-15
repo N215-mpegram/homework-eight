@@ -25,23 +25,16 @@ nav a {
   color: #fff;
 }
 
-.home {
-  padding: 50px;
+.home .hero {
+  background-image: url(../images/tour-01.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .homeStuff {
   margin: auto;
   max-width: 1200px;
-}
-.home img {
-  width: 500px;
-}
-.home .testButton {
-  padding: 20px 10px;
-  background-color: bisque;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  width: 200px;
-  display: flex;
-  justify-content: center;
 }
 
 .about {
