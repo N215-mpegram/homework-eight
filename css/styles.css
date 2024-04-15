@@ -27,7 +27,7 @@ nav a {
 
 .home .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/tour-01.jpg);
-  height: 800px;
+  height: 1200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,14 +36,14 @@ nav a {
   font-size: 100px;
   color: #fff;
   font-weight: 700;
-  padding-left: 250px;
+  padding-left: 150px;
   padding-top: 200px;
 }
 .home .hero .heroTitle2 {
   font-size: 100px;
   color: #fff;
   font-weight: 700;
-  padding-left: 250px;
+  padding-left: 150px;
 }
 
 .about {
@@ -112,7 +112,9 @@ nav a {
   background-size: cover;
 }
 .products .project .project-work .workText {
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 700px;
 }
 
 .contact {

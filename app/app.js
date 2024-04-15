@@ -1,7 +1,7 @@
 var homeContent = `      <div class="home">
 <div class="hero">
-  <p class="heroTitle">HOME</p>
-  <p class="heroTitle2">PAGE</p>
+  <p class="heroTitle">EXPLORE</p>
+  <p class="heroTitle2">THE WORLD</p>
 </div>
 </div>`
 
@@ -235,6 +235,6 @@ function initListeners() {
 }
 
 $(document).ready(function () {
-    $("#app").html(homeContent);
+    // $("#app").html(homeContent);
     initListeners();
 })
