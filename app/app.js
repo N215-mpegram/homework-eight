@@ -235,6 +235,6 @@ function initListeners() {
 }
 
 $(document).ready(function () {
-    // $("#app").html(homeContent);
+    $("#app").html(homeContent);
     initListeners();
 })

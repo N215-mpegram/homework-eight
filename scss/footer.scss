@@ -1,0 +1,13 @@
+footer {
+    height: 80px;
+    background-color: $site-blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .footerText {
+        color: white;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+}
