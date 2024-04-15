@@ -1,0 +1,24 @@
+.products {
+    padding: 50px;
+
+    .project {
+        margin-top: 30px;
+
+        .project-work {
+            display: flex;
+            // flex-direction: column;
+
+            img {
+                width: 300px;
+                height: 300px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .workText {
+                margin-left: 20px
+            }
+        }
+    }
+}
