@@ -26,15 +26,24 @@ nav a {
 }
 
 .home .hero {
-  background-image: url(../images/tour-01.jpg);
-  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/tour-01.jpg);
+  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.home .homeStuff {
-  margin: auto;
-  max-width: 1200px;
+.home .hero .heroTitle {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 700;
+  padding-left: 250px;
+  padding-top: 200px;
+}
+.home .hero .heroTitle2 {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 700;
+  padding-left: 250px;
 }
 
 .about {

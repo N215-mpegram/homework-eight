@@ -1,4 +1,9 @@
-var homeContent = ``
+var homeContent = `      <div class="home">
+<div class="hero">
+  <p class="heroTitle">HOME</p>
+  <p class="heroTitle2">PAGE</p>
+</div>
+</div>`
 
 var aboutContent = `      <div class="about">
 <h1>ABOUT PAGE</h1>
