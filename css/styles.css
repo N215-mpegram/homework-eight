@@ -49,20 +49,46 @@ nav a {
   margin: auto;
   max-width: 1200px;
 }
+.about .whatDo {
+  margin-top: 50px;
+}
+.about .whatDo .whatText {
+  font-size: 18px;
+  width: 850px;
+  margin-top: 20px;
+}
+.about .whoText {
+  width: 850px;
+  margin-top: 50px;
+}
 .about .place {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .about .place img {
   width: 400px;
-  border-radius: 20px;
+  height: 275px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .about .place .placeText {
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
+  margin-left: 50px;
+  height: 275px;
+}
+.about .place .placeText .aboutName {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 550;
+  margin-top: 10px;
+}
+.about .place .placeText .aboutInfo {
+  font-size: 18px;
+  margin-top: 10px;
+  width: 400px;
 }
 
 .products {

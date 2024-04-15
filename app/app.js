@@ -15,7 +15,92 @@ var homeContent = `      <div class="home">
 <img src="../images/tour-01.jpg" alt="Picture" />
 </div>`
 
-var aboutContent = ``
+var aboutContent = `      <div class="about">
+<h1>ABOUT PAGE</h1>
+<div class="whatDo">
+  <h2>What Do We Do?</h2>
+  <p class="whatText">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+    dolorum vero voluptates nostrum voluptatibus aut quo soluta vel
+    repellat possimus minima magni harum eveniet quaerat mollitia
+    doloremque perferendis, aspernatur laudantium. Amet eaque itaque
+    odio non, nihil eum nam iusto! Sapiente, consectetur libero.
+    Cupiditate nulla, at, distinctio magni dolorum officiis dicta facere
+    ad ipsum debitis in. Cumque culpa itaque atque quas maxime, corporis
+    iusto minima voluptatum quis amet officiis quibusdam sed rem
+    pariatur!
+  </p>
+  <p class="whatText">
+    Atque modi sit ipsam reiciendis commodi vel ab obcaecati cumque
+    minus ex quos id autem eaque excepturi, quia recusandae deserunt
+    dolores omnis sunt nobis? Sapiente officia quas soluta aspernatur
+    provident dignissimos eum sequi laborum. Quam ab magni voluptatum
+    nisi fugiat debitis id nesciunt ratione reprehenderit quaerat ipsum
+    sapiente voluptate, dolorem quidem quibusdam nobis, amet sunt
+    reiciendis nostrum adipisci maxime excepturi. Magnam, maxime
+    voluptatibus enim quibusdam in, dignissimos aperiam perferendis
+    suscipit est commodi animi dolores non nemo delectus illo aliquam
+    similique cumque, obcaecati pariatur et odio. Suscipit voluptates,
+    perspiciatis dicta iste mollitia, saepe accusantium ratione nihil
+    magnam in porro deleniti neque.
+  </p>
+  <p class="whatText">
+    Dolore voluptatum iste natus dolor veritatis facere sapiente, et
+    omnis dolorum! Labore consequuntur fugiat iure expedita delectus
+    rem, explicabo sequi maiores quae quidem laborum consequatur dolores
+    voluptate soluta ducimus qui sit eaque iusto quaerat repudiandae
+    nisi vel! Molestiae blanditiis quis commodi repellendus ipsam
+    distinctio quo suscipit placeat, ab, natus dolor consequuntur
+    consectetur veritatis ex doloribus possimus sequi non! Voluptate
+    dolorum reiciendis molestias libero id omnis, expedita eveniet
+    animi, nam magnam eligendi est reprehenderit! Quia?
+  </p>
+</div>
+<h2 class="whoText">Who Are We?</h2>
+<div class="place">
+  <img src="images/lebron.jpg" alt="Lebron" />
+  <div class="placeText">
+    <p class="aboutName">Lebron James</p>
+    <p class="aboutInfo">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
+      quidem ratione doloribus tempora explicabo laudantium atque odit
+      itaque nobis soluta reiciendis, ex libero! Quibusdam eligendi
+      ducimus totam, laboriosam similique necessitatibus iure,
+      repellendus officia odio eveniet ratione, labore nihil eius
+      commodi perferendis iste.
+    </p>
+  </div>
+</div>
+<div class="place">
+  <img src="images/Naismith.jpg" alt="James Naismith" />
+  <div class="placeText">
+    <p class="aboutName">James Naismith</p>
+    <p class="aboutInfo">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+      eos quis officiis est dicta incidunt aut nulla eaque ullam saepe
+      ipsam quos at laborum excepturi quas repellendus ad, placeat id
+      nihil quidem molestias ut? Doloribus inventore omnis voluptate
+      officia sequi molestias nemo! Vel natus quasi recusandae fuga
+      veniam alias!
+    </p>
+  </div>
+</div>
+<div class="place">
+  <img src="images/wilt.jpg" alt="Wilt Chamberlain" />
+  <div class="placeText">
+    <p class="aboutName">Wilt Chamberlain</p>
+    <p class="aboutInfo">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+      nemo consequuntur quidem rem animi harum doloribus neque qui
+      commodi! Deserunt corrupti, dignissimos incidunt soluta architecto
+      laboriosam repellendus sint pariatur distinctio impedit illum
+      earum inventore ad vitae velit ipsam ipsa molestiae omnis. Quasi
+      blanditiis sed eum. Ex itaque veritatis nisi molestiae magni
+      adipisci culpa, qui eius.
+    </p>
+  </div>
+</div>
+</div>`
 
 var productsContent = `      <div class="products">
 <h1>PRODUCTS PAGE</h1>

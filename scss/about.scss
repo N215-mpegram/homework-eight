@@ -3,21 +3,55 @@
     margin: auto;
     max-width: $content-width;
 
+    .whatDo {
+        margin-top: 50px;
+        .whatText {
+            font-size: 18px;
+            width: 850px;
+            margin-top: 20px;
+        }
+    }
+
+    .whoText {
+        // font-size: 18px;
+        width: 850px;
+        margin-top: 50px;
+    }
+
     .place {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        margin-bottom: 30px;
+        // justify-content: space-between;
+        margin-top: 30px;
+
           
         img {
             width: 400px;
-            border-radius: 20px;
+            height: 275px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            // border-radius: 40px;
         }
 
         .placeText {
             display: flex;
             flex-direction: column;
-            margin-left: 30px;
+            margin-left: 50px;
+            height: 275px;
+
+            .aboutName {
+                font-size: 30px;
+                font-style: italic;
+                font-weight: 550;
+                margin-top: 10px;
+            }
+
+            .aboutInfo {
+                font-size: 18px;
+                margin-top: 10px;
+                width: 400px;
+            }
         }
     }
 
