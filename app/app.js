@@ -15,43 +15,7 @@ var homeContent = `      <div class="home">
 <img src="../images/tour-01.jpg" alt="Picture" />
 </div>`
 
-var aboutContent = `      <div class="about">
-<h1>ABOUT PAGE</h1>
-<div class="place">
-  <img src="images/tour-08.jpg" alt="picture" />
-  <div class="placeText">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-      beatae, maiores aliquid voluptatum eius ut, quia assumenda autem,
-      cupiditate nemo perferendis! Eius, cum consectetur nisi ab quis
-      nihil porro distinctio?
-    </p>
-    <p>
-      Quis est maiores quasi! Nobis eligendi at hic? Tempore, quod animi
-      fugit, excepturi dolorem, possimus autem nobis illo debitis
-      incidunt ea nam sit repudiandae. Eum eius consequuntur eveniet
-      quis doloremque?
-    </p>
-  </div>
-</div>
-<div class="place">
-  <img src="images/tour-07.jpg" alt="picture" />
-  <div class="placeText">
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-      beatae, maiores aliquid voluptatum eius ut, quia assumenda autem,
-      cupiditate nemo perferendis! Eius, cum consectetur nisi ab quis
-      nihil porro distinctio?
-    </p>
-    <p>
-      Quis est maiores quasi! Nobis eligendi at hic? Tempore, quod animi
-      fugit, excepturi dolorem, possimus autem nobis illo debitis
-      incidunt ea nam sit repudiandae. Eum eius consequuntur eveniet
-      quis doloremque?
-    </p>
-  </div>
-</div>
-</div>`
+var aboutContent = ``
 
 var productsContent = `      <div class="products">
 <h1>PRODUCTS PAGE</h1>
@@ -128,6 +92,23 @@ var productsContent = `      <div class="products">
 </div>
 </div>`
 
+var contactContent = `      <div class="contact">
+<h1>CONTACT PAGE</h1>
+<div class="contactform">
+  <div class="formInfoMap">
+    <div class="formInfo">
+      <input type="text" placeholder="First Name" class="formInput" />
+      <input type="text" placeholder="Last Name" class="formInput" />
+      <input type="text" placeholder="Email" class="formInput" />
+      <input type="text" placeholder="Phone Number" class="formInput" />
+    </div>
+    <img src="images/travel-fly-map.jpg" alt="Map" />
+  </div>
+  <input type="text" placeholder="Message" class="formMes" />
+  <div class="submit">SUBMIT</div>
+</div>
+</div>`
+
 function initListeners() {
     $("nav a").on("click", (e) => {
         let btnID = e.currentTarget.id;
@@ -139,6 +120,6 @@ function initListeners() {
 }
 
 $(document).ready(function () {
-    $("#app").html(homeContent);
+    // $("#app").html(homeContent);
     initListeners();
 })

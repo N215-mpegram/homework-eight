@@ -1,5 +1,7 @@
 .about {
     padding: 50px;
+    margin: auto;
+    max-width: $content-width;
 
     .place {
         display: flex;

@@ -27,6 +27,8 @@ nav a {
 
 .home {
   padding: 50px;
+  margin: auto;
+  max-width: 1200px;
 }
 .home img {
   width: 500px;
@@ -44,6 +46,8 @@ nav a {
 
 .about {
   padding: 50px;
+  margin: auto;
+  max-width: 1200px;
 }
 .about .place {
   display: flex;
@@ -63,6 +67,8 @@ nav a {
 
 .products {
   padding: 50px;
+  margin: auto;
+  max-width: 1200px;
 }
 .products .project {
   margin-top: 30px;
@@ -79,6 +85,81 @@ nav a {
 }
 .products .project .project-work .workText {
   margin-left: 20px;
+}
+
+.contact {
+  padding: 50px;
+  margin: auto;
+  max-width: 1200px;
+}
+.contact .contactform {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contactform .formInfoMap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .contactform .formInfoMap .formInfo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 700px;
+}
+.contact .contactform .formInfoMap .formInfo .formInput {
+  width: 100%;
+  min-width: 100px;
+  height: 50px;
+  font-size: 18px;
+  padding-left: 15px;
+  color: #000;
+  border: 2px solid;
+  margin-bottom: 50px;
+}
+.contact .contactform .formInfoMap img {
+  width: 360px;
+  height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  border: 2px solid;
+}
+.contact .contactform .formMes {
+  width: 100%;
+  min-width: 100px;
+  height: 200px;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-bottom: 145px;
+  color: #000;
+  border: 2px solid;
+}
+.contact .contactform .submit {
+  padding: 20px 10px;
+  width: 150px;
+  color: #fff;
+  background-color: #79ADDC;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+@media all and (max-width: 660px) {
+  .formInfoMap {
+    flex-direction: column;
+  }
+  .formInfoMap .formInfo {
+    margin-left: 20px;
+    max-width: 100%;
+  }
+  .formInfoMap img {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
